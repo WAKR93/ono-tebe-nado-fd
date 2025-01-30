@@ -1,14 +1,19 @@
 /* место для вашего кода */
 .content-section {
-  
+  min-height: 293px;
 }
 
 .header {
-
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 50px;
 }
 
-.header_menu {
-
+.header_menu-list {
+  display: flex;
+  gap: 13px;
+  list-style: circle;
 }
 
 .header_logo-black_link {
@@ -16,7 +21,7 @@
 }
 
 .header_logo-black_image {
-
+  height: 105px;
 }
 
 .header_address {
