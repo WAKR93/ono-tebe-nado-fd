@@ -1,23 +1,35 @@
 /* место для вашего кода */
 .content-section {
   min-height: 293px;
+  background-color: #fff;
 }
-
+/*-----------------------------------------header----------------------------------------------------*/
 .header {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   padding: 50px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
 }
-
 .header_menu-list {
   display: flex;
-  gap: 13px;
+  gap: 32px;
   list-style: circle;
 }
 
-.header_logo-black_link {
+.header_menu-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 
+.header_menu-item_active {
+  list-style: none;
+}
+
+.header_menu-item_active .header_menu-link {
+  text-decoration: none;
 }
 
 .header_logo-black_image {
@@ -25,19 +37,66 @@
 }
 
 .header_address {
-
+  margin-left: 184px;
+  padding-right: 10px;
+  font-style: normal;
+  line-height: 24px;
 }
 
+.header_address_list {
+  list-style: none;
+}
+
+.header_address_link {
+  text-underline-offset: 4px;
+}
+/*-----------------------------------------content---------------------------------------------------*/
 .content {
-
-}
-
-.overlay {
-
+ 
 }
 
 .cover {
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.overlay {
+  background-color: rgb(0 0 0/.6);
+}
+
+.cover_title {
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30px;
+  line-height: 128px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.description {
+  display: flex;
+  margin-top: 106px;
+  justify-content: space-between;
+  font-size: 22px;
+  word-spacing: 15px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .lots {
@@ -47,9 +106,8 @@
 .abuot {
 
 }
-
+/*-----------------------------------------footer----------------------------------------------------*/
 .footer {
-
 }
 .footer_address {
 
