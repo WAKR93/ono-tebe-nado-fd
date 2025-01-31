@@ -1,8 +1,5 @@
 /* место для вашего кода */
-.content-section {
-  min-height: 293px;
-  background-color: #fff;
-}
+
 /*-----------------------------------------header----------------------------------------------------*/
 .header {
   display: grid;
@@ -13,41 +10,41 @@
   font-size: 18px;
   color: #000;
 }
-.header_menu-list {
+.header__links-list {
   display: flex;
   gap: 32px;
   list-style: circle;
 }
 
-.header_menu-link {
+.header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.header_menu-item_active {
+.header__link_active {
   list-style: none;
 }
 
-.header_menu-item_active .header_menu-link {
+.header__links-list-item_no-bullit {
   text-decoration: none;
 }
 
-.header_logo-black_image {
+.header__logo-image {
   height: 105px;
 }
 
-.header_address {
+.header__address {
   margin-left: 184px;
   padding-right: 10px;
   font-style: normal;
   line-height: 24px;
 }
 
-.header_address_list {
+.address {
   list-style: none;
 }
 
-.header_address_link {
+.address__link {
   text-underline-offset: 4px;
 }
 /*-----------------------------------------content---------------------------------------------------*/
