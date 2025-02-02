@@ -48,27 +48,31 @@
       </address>
     </header>
     <main class="content">
-      <section class="cover overlay">
-        <h1 class="cover_title">
-          <span class="accent-span">ОНО</span>
-          <span class="accent-span text-center">ТЕБЕ</span>
-          <span class="accent-span text-right">НАДО</span>
-        </h1>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button class="cover_button">Сделать ставку</button>
-        </div>
+      <section class="cover">
+        <div class="overlay"></div>
+          <h1 class="cover__title">
+            <span class="aligned-text letter-spacing-extended">ОНО</span>
+            <span class="aligned-text_center letter-spacing-extended no-letter-spacing">ТЕБЕ</span>
+            <span class="aligned-text_right letter-spacing-extended no-letter-spacing">НАДО</span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">
+              Аукцион вещей, в которые никто не верил
+            </p>
+            <button class="bet-button">
+              Сделать ставку
+            </button>
       </section>
-      <section class="lots overlay">
-        <h2 class="lots_title">Лоты</h2>
+      <section class="lots">
+        <h2 class="lots__title">Лоты</h2>
         <ul class="card-list">
           <li>
             <a href="#0">
               <article class="card">
-                <h3 class="card_title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <div class="card_text">
+                <div class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -79,10 +83,10 @@
           <li>
             <a href="#0">
               <article class="card">
-                <h3 class="card_title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <div class="card_text">
+                <div class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -96,10 +100,10 @@
           <li>
             <a href="#0">
               <article class="card">
-                <h3 class="card_title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <div class="card_text">
+                <div class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -119,8 +123,8 @@
             alt="Логотип проекта белый"
           />
         </div>
-        <div class="about_text">
-          <h2 class="about_title">Об аукционе</h2>
+        <div class="about__text">
+          <h2 class="about__title">Об аукционе</h2>
           <p>
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -140,13 +144,13 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer_address">
-        <ul class="footer_address_list">
-          <li class="footer_address_item">
-            <a class="footer_address_link" href="tel:+99995555555">+9 999 555 5555</a>
+      <address class="footer__address">
+        <ul class="address">
+          <li class="address__item">
+            <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
           <li>
-            <a class="footer_address_link" href="mailto:info@sobaka.ge"
+            <a class="address__link" href="mailto:info@sobaka.ge"
               >info@sobaka.ge</a
             >
           </li>
@@ -155,33 +159,33 @@
           </li>
         </ul>
       </address>
-      <nav class="footer_menu">
-        <ul class="footer_list">
-          <li class="footer_menu-item footer_menu-item_active">
-            <a class="footer_menu-link">главная</a>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item footer__link_active">
+            <a class="footer__link">главная</a>
           </li>
-          <li class="footer_menu-item">
-            <a class="footer_menu-link">посмотреть лоты</a>
+          <li class="footer__links-list-item">
+            <a class="footer__link">посмотреть лоты</a>
           </li>
-          <li class="footer_menu-item">
-            <a class="footer_menu-link">об аукционе</a>
+          <li class="footer__links-list-item">
+            <a class="footer__link">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <ul class="socials_list">
-        <li>
-          <a class="socials_link" href="#0">
-            <img class="socials_image" src="./images/yt.svg" alt="YouTube">
+      <ul class="socials__links-list">
+        <li class="socials__links-list-item">
+          <a class="socials__link" href="#0">
+            <img class="socials__image" src="./images/yt.svg" alt="YouTube">
           </a>
         </li>
-        <li>
-          <a class="socials_link" href="#0">
-            <img class="socials_image" src="./images/vk.svg" alt="VK">
+        <li class="socials__links-list-item">
+          <a class="socials__link" href="#0">
+            <img class="socials__image" src="./images/vk.svg" alt="VK">
           </a>
         </li>
-        <li>
-          <a class="socials_link" href="#0">
-            <img class="socials_image" src="./images/pinterest.svg" alt="Pinterest">
+        <li class="socials__links-list-item">
+          <a class="socials__link" href="#0">
+            <img class="socials__image" src="./images/pinterest.svg" alt="Pinterest">
           </a>
         </li>
       </ul>
