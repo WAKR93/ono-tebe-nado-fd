@@ -48,7 +48,6 @@
 .address {
   margin-left: 195px;
   padding-right: 1px;
- 
 }
 
 .address__list {
@@ -127,7 +126,7 @@
 .bet-button {
   margin: 0;
   border-width: 1px;
-  border-style: solid;  
+  border-style: solid;
   border-color: #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
@@ -144,7 +143,7 @@
   margin: 180px 24px 120px;
 }
 
-.lots__heading { 
+.lots__heading {
   padding: 0 0 27px 40px;
   color: #000;
   font-weight: bold;
@@ -156,7 +155,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  list-style: none; 
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -164,7 +163,7 @@
   min-height: 596px;
 }
 
-.card-link .card { 
+.card-link .card {
   height: 100%;
 }
 
@@ -247,7 +246,7 @@
 
 .about__logo {
   width: 148px;
-  height: 114px; 
+  height: 114px;
 }
 
 .about__title {
