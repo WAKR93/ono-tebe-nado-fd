@@ -271,8 +271,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 180px;
-  height: 180px;
+  margin: 180px 0;
   /*padding-bottom: 180px;*/
   font-weight: normal;
   font-size: 18px;
