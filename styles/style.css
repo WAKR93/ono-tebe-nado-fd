@@ -272,7 +272,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 180px;
-  padding-bottom: 180px;
+  height: 180px;
+  /*padding-bottom: 180px;*/
   font-weight: normal;
   font-size: 18px;
 }
@@ -313,4 +314,4 @@
   width: 48px;
   height: 48px;
 }
-/*Учту на будущее ваши замечания! Спасибо! Теперь вроде все исправил!*/
+/*Замечания исправил по макету сверил, но автотест на github ругается на нестыковку с макетом*/
