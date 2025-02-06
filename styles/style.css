@@ -271,10 +271,9 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 180px;
+  margin: 180px 0;
   font-weight: normal;
   font-size: 18px;
-  min-height: 180px;
 }
 
 .address__align {
@@ -313,4 +312,4 @@
   width: 48px;
   height: 48px;
 }
-/*Прошу прощение за не внимательность! Поторопился и сделал ошибки! Всего вам доброго!*/
+/*Учту на будущее ваши замечания! Спасибо! Теперь вроде все исправил!*/
